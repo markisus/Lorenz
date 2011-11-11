@@ -1,0 +1,12 @@
+Demo at http://www.columbia.edu/~ml2877/test.html  
+
+Uses external libraries dat.gui.min.js and gee.min.js  
+
+shit3d.js:  
+Uses simple linear approximation to compute solution to Lorenz attractor  
+differential equations. The quality of the approximation can be controlled  
+through a GUI. The length of the cuve can also be controlled.  Making the  
+the approximation too good may make your computer tired.  Conceivably, you  
+could change the diff eq's to plot any other curves.  
+The 3D rotation is done through the well known matrix rotation linear  
+transforms.
