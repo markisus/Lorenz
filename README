@@ -7,4 +7,4 @@ through a GUI. The length of the cuve can also be controlled.  Making the
 the approximation too good may make your computer tired.  Conceivably, you  
 could change the diff eq's to plot any other curves.  
 The 3D rotation is done through the well known matrix rotation linear  
-transforms.
+transforms. 
