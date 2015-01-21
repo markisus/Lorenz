@@ -61,6 +61,7 @@ function LorenzEq(a, b, c) {
 	
 	this.dt = .01;
 	
+	//Linear interpolation
 	this.next = function(point) {
 		var delta = new Point(this.dx_dt(point), this.dy_dt(point), this.dz_dt(point)).mul(this.dt);
 		return point.plus(delta);
